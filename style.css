@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+    margin:0;
+    padding:30px;
+}
+
+.contenedor{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    text-align:center;
+}
+
+h1{
+    color:#2563eb;
+    font-size:70px;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    color:#64748b;
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+#puntos{
+    color:#16a34a;
+    font-size:45px;
+    font-weight:bold;
+}
+
+#pregunta{
+    font-size:38px;
+    color:#1e3a8a;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:24px;
+    border-radius:15px;
+    cursor:pointer;
+    margin:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+#resultado{
+    font-size:40px;
+    color:#16a34a;
+    font-weight:bold;
+    margin-top:30px;
+}
+
+#historial{
+    font-size:22px;
+    text-align:left;
+    max-width:300px;
+    margin:auto;
+}
+
+#arbol{
+
+    background: linear-gradient(135deg,#1e293b,#334155);
+
+    color:#f8fafc;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    font-family:Consolas, monospace;
+
+    font-size:28px;
+
+    overflow:auto;
+
+    text-align:center;
+
+    border:4px solid #3b82f6;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.3);
+
+    line-height:1.8;
+}
+
+hr{
+    margin:40px 0;
+}
+
+/* =====================
+   IMAGEN DEL PERSONAJE
+===================== */
+
+.personaje-img{
+
+    width:350px;
+    height:350px;
+
+    object-fit:contain;
+
+    background:white;
+
+    border-radius:20px;
+
+    margin-top:20px;
+
+    border:5px solid #2563eb;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+
+    transition:.3s;
+}
+
+.personaje-img:hover{
+
+    transform:scale(1.05);
+}
+
+.titulo-arbol{
+
+    color:#1e3a8a;
+
+    font-size:38px;
+
+    margin-bottom:25px;
+
+    text-shadow:2px 2px 10px rgba(37,99,235,.2);
+}

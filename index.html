@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🤖 Adivina el Personaje - IA con AVL</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>🤖 Adivina el Personaje</h1>
+
+        <p class="subtitulo">
+            🧠 Inteligencia Artificial utilizando Árbol AVL
+        </p>
+
+        <h3 id="puntos">
+            ⭐ Puntos: 0
+        </h3>
+
+        <p class="descripcion">
+            Piensa en un personaje famoso y responde las preguntas.
+            La IA intentará adivinar quién es.
+        </p>
+
+        <button onclick="iniciarJuego()">
+            🚀 Iniciar Juego
+        </button>
+
+        <h2 id="pregunta"></h2>
+
+        <div id="opciones">
+
+            <button onclick="responder('si')">
+                ✅ Sí
+            </button>
+
+            <button onclick="responder('no')">
+                ❌ No
+            </button>
+
+        </div>
+
+        <!-- RESULTADO -->
+
+        <div id="resultado-container">
+
+            <h2 id="resultado"></h2>
+
+            <img
+                id="imagenPersonaje"
+                src=""
+                alt="Personaje"
+                style="display:none;"
+            >
+
+        </div>
+
+        <hr>
+
+        <h3>
+            📜 Historial de Partidas
+        </h3>
+
+        <ul id="historial"></ul>
+
+        <hr>
+
+        <h3 class="titulo-arbol">
+    🌳 Árbol AVL Utilizado
+</h3>
+
+        <pre id="arbol"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
