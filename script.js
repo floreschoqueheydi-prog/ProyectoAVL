@@ -269,7 +269,7 @@ function responder(r) {
         <h2>🤖 Creo que es: ${personajeEncontrado.nombre}</h2>
 
         <img
-            src="imagenes/${personajeEncontrado.imagen}"
+            src="${personajeEncontrado.imagen}"
             alt="${personajeEncontrado.nombre}"
             class="personaje-img">
         `;
